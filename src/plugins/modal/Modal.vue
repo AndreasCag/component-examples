@@ -1,4 +1,6 @@
 <script>
+import ModalTransition from './ModalTransition.vue';
+
 export default {
 
   props: {
@@ -37,9 +39,7 @@ export default {
     const { isStartClosing } = this;
 
     return (
-      <transition
-        name="modal"
-        appear
+      <ModalTransition
         onAfterLeave={this.emitLeaveTransitionEnd}
       >
         {
@@ -54,7 +54,7 @@ export default {
             </div>
           ) : null
         }
-      </transition>
+      </ModalTransition>
     );
   },
 
@@ -78,13 +78,5 @@ export default {
   transform: translate(-50%, -50%);
   background-color: white;
   border-radius: 2px;
-}
-
-.modal-enter, .modal-leave-to {
-  opacity: 0;
-}
-
-.modal-enter-active, .modal-leave-active {
-  transition: opacity .3s ease;
 }
 </style>
