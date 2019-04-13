@@ -18,7 +18,7 @@ export default {
   methods: {
 
     backgroundIsClicked(event) {
-      if (event.target !== this.$el) {
+      if (event.target !== event.currentTarget) {
         return;
       }
 
