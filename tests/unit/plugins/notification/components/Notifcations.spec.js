@@ -18,7 +18,6 @@ describe('Notifications.vue', () => {
 
     expect(notificationsWrapper.find(Notification).exists()).toBeFalsy();
 
-    // eslint-disable-next-line no-plusplus
     for (let i = 0; i < componentsAmount; i++) {
       notificationsWrapper.vm.addNotification({});
     }
