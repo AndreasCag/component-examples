@@ -42,7 +42,6 @@ export default {
 
       const notification = {
         ...partialNotificationData,
-        // eslint-disable-next-line no-plusplus
         id: notificationCount++,
       };
 
