@@ -55,6 +55,7 @@ export default {
             this.$emit('close');
           },
           leaveTransitionEnd: () => {
+            this._modalInstance.$destroy();
             modalData.modalsCount--;
           },
         },
