@@ -12,6 +12,7 @@
     "classnames": "^2.2.6",
     "core-js": "^2.6.5",
     "vue": "^2.6.6",
+    "vue-cli-plugin-webpack-bundle-analyzer": "^1.2.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
