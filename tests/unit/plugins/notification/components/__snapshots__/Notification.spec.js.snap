@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification.vue renders passed content 1`] = `
+<div
+  class="notification notification_warning"
+>
+  <div
+    class="test-header"
+  >
+    test header
+  </div>
+  <div
+    class="test-subheader"
+  >
+    test subheader
+  </div>
+  <div
+    class="test-content"
+  >
+    test content
+  </div>
+</div>
+`;
