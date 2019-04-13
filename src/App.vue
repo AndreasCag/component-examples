@@ -23,6 +23,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 #nav {
   padding: 30px;
   text-align: center;
